@@ -76,7 +76,7 @@ Ensure your program accounts for the following:
 All function calls should be checked for errors. If an error is fatal, print an informative error message and exit with an appropriate status code.
 
 ## Submission requirements
-- A `.zip` containing all of the code needed to compile and run you project
+- A `zip` file called `submission.zip` containing all of the code needed to compile and run you project. The provided `template.zip` is an example of what all should be included. A list is also provided below:
   - `array.c`
   - `array.h`
   - `multi-lookup.c`
