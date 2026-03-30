@@ -11,7 +11,7 @@ The goal of the assignment is not only to perform DNS lookups correctly, but to 
 
 ## File overview
 - [`../common/hostnames/`](../common/hostnames/): text files containing hostnames that can be used as input
-- `array.c`: implement your thread-safe shared array or queue here (from PA 3!)
+- `array.c`: implement your thread-safe shared array or queue here (from P4 3!)
 - `array.h`: header file for your shared array or queue
 - `Makefile`: GNU Makefile used to compile your code
   - `make`: builds an executable named `multi-lookup`
