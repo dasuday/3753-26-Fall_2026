@@ -2,10 +2,11 @@
 
 ## Introduction
 In this assignment we will implement two system calls in the Linux kernel, and create a loadable kernel module. This assignment will be completed on your Cloud VM, and will require compiling the kernel at least twice. The steps needed to complete this assignment include:
-Lab1:
+
+[Lab1:](#hello-world-system-call)
 - [Hello World system call](#hello-world-system-call)
 - [Test program](#test-program)
-Lab2:
+[lab2:](#multiplication-system-call)
 - [Multiplication system call](#multiplication-system-call)
 - [Creating an LKM](#creating-a-loadable-kernel-module)
 
