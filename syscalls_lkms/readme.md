@@ -1,9 +1,11 @@
-# System calls & LKMs
+# Lab 1: System calls & LKMs
 
 ## Introduction
 In this assignment we will implement two system calls in the Linux kernel, and create a loadable kernel module. This assignment will be completed on your Cloud VM, and will require compiling the kernel at least twice. The steps needed to complete this assignment include:
+Lab1:
 - [Hello World system call](#hello-world-system-call)
 - [Test program](#test-program)
+Lab2:
 - [Multiplication system call](#multiplication-system-call)
 - [Creating an LKM](#creating-a-loadable-kernel-module)
 
@@ -86,7 +88,7 @@ $ sudo dmesg
 ```
 Note, there are many, many applications and services printing to the kernel log, thus you will likely need to look at its output fairly quickly after calling your system call for it to be seen.
 
-## Multiplication system call
+## Lab 2: Multiplication system call
 Once your Hello World system call is functioning, you will now create a second system call. Name this new system call `csci3753_mult()`. This function will take three arguments: two integers `number1` and `number2`, and a long pointer `result`.
 ```c
 SYSCALL_DEFINE3(csci3753_mult, int, number1, int, number2, long *, result)
